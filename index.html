@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+      a {
+        font-size: 20pt
+      }
+    </style>
+  </head>
+  <body>
+    <a href="tugas45.html"> Ke Tugas 45 </a>
+    <br/>
+    <button onclick="showHref()">Tunjukkan HRef</button>
+    <br/>
+    <p id="href"></p>
+    <script type="text/javascript">
+      function showHref(){
+        var element = document.getElementById("href")
+        element.innerHTML = location.href
+      }
+    </script>
+  </body>
+</html>
